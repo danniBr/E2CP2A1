@@ -1,0 +1,170 @@
+/*Estilos generales*/
+* {
+	border: 0;
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+body {
+	font: 16px/normal 'Roboto', sans-serif;
+}
+.contenedor {
+	width: 760px;
+	margin: 0 auto;
+}
+.clearfix {
+	clear: both;
+}
+h1 {
+	color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    padding: 40px 0 15px;
+    width: 65%;
+    margin: 0 auto;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+h2 {
+	text-align: center;
+    text-transform: uppercase;
+    padding: 60px 0 25px;
+    font-size: 1.2em;
+    color: #333335;
+}
+h3 {
+	margin: 60px 0 20px;
+    font-weight: normal;
+    font-size: 1.3em;
+}
+.btn {
+	display: inline-block;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    -webkit-border-radius:5px;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+/*header*/
+header {
+	width: 80%;
+    padding: 15px 0px;
+    margin: 0 auto;
+}
+header .logo {
+	display: block;
+    width: 200px;
+    float: left;
+}
+header .logo img {
+	width: 100%;
+}
+nav {
+	float: right;
+}
+nav li {
+	display: inline-block;
+}
+nav a {
+	display: block;
+    color: #b0b0b0;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/*inicio*/
+.inicio {
+    background: url(../images/bg.jpeg) no-repeat center 0;
+    background-size: cover;
+}
+.inicio .botones {
+	text-align: center;
+}
+.btn.uno {
+	background-color: #3479b7;
+}
+.btn.dos {
+	background-color: #5bb85c;
+}
+.inicio p {
+	color: #ffffff;
+    text-align: center;
+    margin: 16px auto 0;
+    padding-bottom: 55px;
+}
+/*descripcion*/
+.descripcion p {
+	text-align: center;
+    margin: 0 auto;
+}
+.descripcion img {
+	display: block;
+    width: 45%;
+    margin: 35px auto 0;
+}
+/*informacióm*/
+.informacion {
+	background-color: #fafafa;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.informacion p {
+    margin: 0 auto;
+}
+.informacion .btn {
+	margin: 20px 0;
+}
+/*contacto*/
+.contacto {
+	float: left;
+    width: 40%;
+}
+.contacto li {
+	margin-bottom: 4px;
+}
+.contacto li span {
+	font-weight: bold;
+}
+.contacto a {
+	margin: 25px 0 60px;
+    display: block;
+}
+.suscribete {
+	float: left;
+	width: 60%;
+}
+.suscribete input {
+	border: 1px solid #bababa;
+    height: 39px;
+    width: 200px;
+    margin: 12px 0;
+    padding: 0 10px;
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.suscribete button {
+	display: inline-block;
+    padding: 10px 12px;
+    font-size: 1em;
+    background-color: #ffffff;
+    border: 1px solid #bababa;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+/*footer*/
+footer {
+	background-color: #232322;
+    padding: 30px;
+}
+footer p {
+	color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+}
